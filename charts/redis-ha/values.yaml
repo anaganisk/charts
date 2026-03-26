@@ -278,7 +278,7 @@ haproxy:
   additionalAffinities: {}
 
   # -- Override all other affinity settings for the haproxy pods with a string.
-  affinity: {}
+  affinity: []
 
   ## Custom config-haproxy.cfg files used to override default settings. If this file is
   ## specified then the config-haproxy.cfg above will be ignored.
